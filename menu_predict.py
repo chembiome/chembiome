@@ -8,8 +8,8 @@ import sys
 import os
 from prepare_input_file import canonicalise_smile
 from prepare_input_file import smi_tokenizer
-#sys.path.append('./MetaTrans')
-#from MetaTrans.translate import *
+#sys.path.append('./')
+#from xx.translate import *
 import prepare_input_file
 
 def perform_toxicity_prediction():
