@@ -177,7 +177,7 @@ def process_predictions(predictions,drug,size_diff_thresh,similarity_threshold,a
             except:
                 sim = 0
                 print('Exception in computing fingerprint similarity!')
-                print(drug_smiles)
+                #print(drug_smiles)
             pred = canonicalise_smile(pred)
             if filtering:
                 if check_added_atoms(drug,mol):

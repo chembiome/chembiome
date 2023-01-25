@@ -8,7 +8,7 @@ from rdkit import Chem
 from rdkit.Chem import Draw
 from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem import rdChemReactions as Reactions
-from rdkit.Chem.Draw import IPythonConsole
+#from rdkit.Chem.Draw import IPythonConsole
 from PIL import Image
 #from functions import string_2_html
 
@@ -16,7 +16,9 @@ from PIL import Image
 hostname = 'localhost'
 database = 'chembiome'
 username = 'postgres'
+username = 'masun'
 pwd = '1'
+pwd = 'BuRz7PgHZow9zV0OcuGPjzMSXtw0D7V6'
 port_id = 5432
 conn = None
 ################################# Functions
