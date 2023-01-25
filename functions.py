@@ -11,14 +11,14 @@ from statistics import mean
 from rdkit import Chem
 from rdkit.Chem import MACCSkeys
 from rdkit.Chem import rdMolDescriptors
-import datetime
-from streamlit_option_menu import option_menu
-import streamlit.components.v1 as components
-import psycopg2
-from st_aggrid import AgGrid,GridUpdateMode
-from st_aggrid.grid_options_builder import GridOptionsBuilder
+#import datetime
+#from streamlit_option_menu import option_menu
+#import streamlit.components.v1 as components
+#import psycopg2
+#from st_aggrid import AgGrid,GridUpdateMode
+#from st_aggrid.grid_options_builder import GridOptionsBuilder
 
-import psycopg2.extras
+#import psycopg2.extras
 import pandas as pd
 
 #################################### Functions #########################

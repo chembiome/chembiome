@@ -25,8 +25,8 @@ import sys, os
 
 import pandas as pd
 
-from functions import predict_xeno
-from functions import isNaN
+#from functions import predict_xeno
+#from functions import isNaN
 from menu_predict import perform_toxicity_prediction
 from menu_predict import perform_xenobiotic_prediction
 from menu_chembiome import core_microbiome_organisms
